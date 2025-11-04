@@ -19,6 +19,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover, 
@@ -26,11 +28,27 @@
     color: #404bbf;
 }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
 .address{
     font-style: normal;
+    margin-left: auto;
+}
+
+.address-ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contacts {
+    display: block;
+    padding: 24px 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -52,12 +70,37 @@ body{
 
 ul,ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+border-bottom: 1px solid #e7e9fc ;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
 
 .section-hero {
     background-color: #2e2f42;
@@ -191,4 +234,9 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
