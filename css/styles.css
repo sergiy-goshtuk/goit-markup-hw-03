@@ -299,8 +299,10 @@ padding: 32px 0;
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.footer .logo-web {
+.footer .logo-web  {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -308,6 +310,11 @@ padding: 32px 0;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer .logo-studio {
@@ -321,6 +328,7 @@ padding: 32px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px
 }
 
 .nav {
